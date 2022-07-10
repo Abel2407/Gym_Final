@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "| Sign up";
+}
+<!doctype html>
+<html lang="es">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="atras"> 
+			</div> 
+		</header>
+    
+		<br>
+    
+		<main>
+
+			<a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="InicioSesionCliente">ATRAS</a>
+			<a href="http://localhost:5240/Home/InicioSesionCliente"><img src="~/lib/atras.png" width="30" height="20" alt="atras" class="flecha-atras"><a/>
+			<section class="ftco-section">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12 col-lg-10">
+							<div class="login-prueba p-4 p-md-5">
+			      				<div class="d-flex">
+			      					<div class="w-100">
+			      						<h3 class="mb-4">Sign Up</h3>
+			      					</div>
+									<div class="w-100">
+										<p class="social-media d-flex justify-content-end">
+											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+										</p>
+									</div>
+			      				</div>
+								<form action="http://localhost:5240/Home/InicioSesionCliente" class="signin-form">
+			      					<div class="form-group mb-3">
+			      							<label class="label" for="name">Nombre</label>
+			      							<input type="text" class="form-control" placeholder="Nombres" required>
+			      					</div>
+									<div class="form-group mb-3">
+			      							<label class="label" for="name">Apellidos</label>
+			      							<input type="text" class="form-control" placeholder="Apellidos" required>
+			      					</div>
+									<div class="form-group mb-3">
+			      							<label class="label" for="name">DNI</label>
+			      							<input type="text" class="form-control" placeholder="DNI" required>
+			      					</div>
+									<div class="form-group mb-3">
+			      							<label class="label" for="name">Correo</label>
+			      							<input type="text" class="form-control" placeholder="Correo" required>
+			      					</div>
+									<div class="form-group mb-3">
+			      							<label class="label" for="password">Contraseña</label>
+			      							<input type="password" class="form-control" placeholder="Contraseña" required>
+			      					</div>
+									<div class="form-group mb-3">
+		            					<label class="label" for="name">Sexo</label>
+									  <input type="text" class="form-control" placeholder="Sexo" required>
+									</div>
+									<div class="form-group mb-3">
+		            					<label class="label" for="name">Fecha de Nacimiento</label>
+									  <input type="text" class="form-control" placeholder="Fecha de Nacimiento" required>
+									</div>
+									<div class="form-group">
+		            					<button type="submit" class="form-control btn btn-primary rounded submit px-3">Registrar</button>
+									</div>
+							  </form>
+							</div>
+						</div>
+					 </div>
+				 </div>
+			</section>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+            
+    </main>
+		
+		
+
+	</body>
+</html>

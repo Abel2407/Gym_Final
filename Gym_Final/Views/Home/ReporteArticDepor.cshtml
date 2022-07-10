@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "| Reportes";
+}
+
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Gym Spartans</title>
+        <link rel="shortcut icon" href="~/lib/muaythai.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <header>
+            <div class="atras"> 
+	        </div> 
+        </header>
+        <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="MenuReportes">ATRAS</a>
+	    <a href="http://localhost:5240/Home/MenuReportes"><img src="~/lib/atras.png" width="30" height="20" alt="atras" class="flecha-atras"><a/>
+        <div class="atras"> 
+	    </div> 
+        <div class="tituloPA">
+            <img src="~/lib/spartan.png" width="41" height="40" alt="compras" class="logoPrincipal"><a/>
+            <div class="rectanguloTituloNegroPA">
+                <p>REPORTE DE ARTÍCULOS DEPORTIVOS</p>
+            </div>
+
+        </div>
+        
+        <div class="atras"> 
+	    </div> 
+
+        <div class="content">
+    
+            <div class="container">
+      
+
+              <div class="table-responsive">
+
+                <table class="table table-striped custom-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">
+                        <label class="control control--checkbox">
+                          <input type="checkbox"  class="js-check-all"/>
+                          <div class="control__indicator"></div>
+                        </label>
+                      </th>
+                      <th scope="col">Artículo</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">Disponible desde</th>
+                      <th scope="col">Estado</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr scope="row">
+                      <td>
+                        <label class="control control--checkbox">
+                        <input type="checkbox" />
+                        <div class="control__indicator"></div>
+                        </label>
+                      </td>
+                      <td>Tobillera Ortopédica</td>
+                      <td class="pl-0">
+                        <div class="d-flex align-items-center">
+                          <small class="d-block">10</small>
+                        </div>
+                      </td>
+                      <td>
+                        <small class="d-block">39</small>
+                      </td>
+                      <td>01/04/2022</td>
+                      <td>
+                          <small class="d-block">Disponible</small>
+                      </td>
+            
+                    </tr>
+
+                    <tr>
+
+                      <td>
+                        <label class="control control--checkbox">
+                        <input type="checkbox" />
+                        <div class="control__indicator"></div>
+                        </label>
+                      </td>
+              
+                      <td>Mancuerna 2kg</td>
+                      <td class="pl-0">
+                        <div class="d-flex align-items-center">
+                          <small class="d-block">34</small>
+                        </div>
+
+                      </td>
+                      <td>
+                        <small class="d-block">79</small>
+                      </td>
+                      <td>23/03/2022</td>
+                      <td>
+                          <small class="d-block">Disponible</small>
+                      </td>
+                    </tr>
+
+            
+                  </tbody>
+                </table>
+              </div>
+
+
+            </div>
+
+      </div>
+    
+    
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>

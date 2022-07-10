@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "| Reportes";
+}
+
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Gym Spartans</title>
+        <link rel="shortcut icon" href="~/lib/muaythai.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <header>
+            <div class="atras"> 
+	        </div> 
+        </header>
+        <a class="nav-link text-black" asp-area="" asp-controller="Home" asp-action="MenuReportes">ATRAS</a>
+	    <a href="http://localhost:5240/Home/MenuReportes"><img src="~/lib/atras.png" width="30" height="20" alt="atras" class="flecha-atras"><a/>
+        <div class="atras"> 
+	    </div> 
+        <div class="tituloPA">
+            <img src="~/lib/spartan.png" width="41" height="40" alt="compras" class="logoPrincipal"><a/>
+            <div class="rectanguloTituloNegroPA">
+                <p>REPORTE DE ACTIVIDADES GRUPALES</p>
+            </div>
+
+        </div>
+        
+        <div class="atras"> 
+	    </div> 
+
+        <div class="content">
+    
+            <div class="container">
+      
+
+              <div class="table-responsive">
+
+                <table class="table table-striped custom-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">
+                        <label class="control control--checkbox">
+                          <input type="checkbox"  class="js-check-all"/>
+                          <div class="control__indicator"></div>
+                        </label>
+                      </th>
+                      <th scope="col">Instructor</th>
+                      <th scope="col">Fecha</th>
+                      <th scope="col">Inicio</th>
+                      <th scope="col">Fin</th>
+                      <th scope="col">Asistentes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr scope="row">
+                      <td>
+                        <label class="control control--checkbox">
+                        <input type="checkbox" />
+                        <div class="control__indicator"></div>
+                        </label>
+                      </td>
+                      <td>James Yates Miranda</td>
+                      <td class="pl-0">
+                        <div class="d-flex align-items-center">
+                          <small class="d-block">00/00/0000</small>
+                        </div>
+                      </td>
+                      <td>
+                        <small class="d-block">07:53</small>
+                      </td>
+                      <td>10:53</td>
+                      <td>
+                          <a href="#" class="more">Lista</a>
+                      </td>
+            
+                    </tr>
+
+                    <tr>
+
+                      <td>
+                        <label class="control control--checkbox">
+                        <input type="checkbox" />
+                        <div class="control__indicator"></div>
+                        </label>
+                      </td>
+              
+                      <td>Matthew Wasil Monzón</td>
+                      <td class="pl-0">
+                        <div class="d-flex align-items-center">
+                          <small class="d-block">00/00/0000</small>
+                        </div>
+
+                      </td>
+                      <td>
+                        <small class="d-block">14:30</small>
+                      </td>
+                      <td>15:30</td>
+                      <td>
+                          <a href="#" class="more">Lista</a>
+                      </td>
+                    </tr>
+
+            
+                  </tbody>
+                </table>
+              </div>
+
+
+            </div>
+
+      </div>
+    
+    
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>
